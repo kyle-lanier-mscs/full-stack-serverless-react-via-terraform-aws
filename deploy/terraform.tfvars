@@ -1,0 +1,5 @@
+default_region      = "us-east-1"
+github_username     = "kyle-lanier-mscs"
+github_project_name = "full-stack-serverless-react-via-terraform-aws"
+app_name            = "terraform-aws-react-app"
+environment         = "staging"
