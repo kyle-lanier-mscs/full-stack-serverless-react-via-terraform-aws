@@ -17,9 +17,10 @@ phases:
   build:
     commands:
       - echo Building...
+      - cd APP/React
       - yarn build
 artifacts:
   files:
     - "**/*"
   discard-paths: no
-  base-directory: 'APP/React'
+  base-directory: build
