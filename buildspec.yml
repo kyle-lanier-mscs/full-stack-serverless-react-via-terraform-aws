@@ -19,6 +19,7 @@ phases:
       - echo Building...
       - cd APP/React
       - ls -a
+      - npm run-script install
       - npm run-script build
 artifacts:
   files:
