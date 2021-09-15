@@ -22,10 +22,10 @@ phases:
       - npm run-script build
       - ls -a
       - echo $CODEBUILD_SRC_DIR
-      - cd $CODEBUILD_SRC_DIR
+      - cd ..
       - ls -a
 artifacts:
   files:
-    - '**/*'
+    - 'APP/React/Build/*'
   discard-paths: no
   # base-directory: build
