@@ -23,6 +23,6 @@ phases:
       - ls -a
 artifacts:
   files:
-    - "**/*"
+    - "build/*"
   discard-paths: no
-  base-directory: 'APP/react/build'
+  # base-directory: 'APP/react/build'
