@@ -22,8 +22,8 @@ phases:
       - npm run-script build
       - ls -a
       - echo $CODEBUILD_SRC_DIR
-      - cd ..
-      - ls -a
+      # - cd ..
+      # - ls -a
 artifacts:
   files:
     - '**/*'
